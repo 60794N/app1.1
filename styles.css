@@ -5,6 +5,9 @@
   }
   
   body, html {
+      display:flex;
+justify-content:cenetr;
+      align-items:center;
     background-color: #999;
     height: 100%;
   }
@@ -37,7 +40,8 @@
   #pokemon-name{padding:0px 5px}
   #img{display:flex;
   align-items:center;
-  justify-content:flex-start;height:150px;}
+  justify-content:center;height:150px;
+      width:90%;}
   #types{
   display:flex;
   justify-content:center;align-items:center;height:30px;
