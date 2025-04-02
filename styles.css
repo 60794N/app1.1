@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+  }
+  
+  body, html {
+    background-color: #999;
+    height: 100%;
+  }
+  
+  #input {
+    display: flex;
+    justify-content: center;
+  }
+  
+  #search-input {
+    width: 80%;
+  }
+  
+  
+  
+  #table {
+    display: flex;
+   padding-top:0px; 
+    justify-content: center; 
+    align-items: center; 
+    height:70px;
+  }#stats{
+    justify-content:center; align-items:center; height:30px;display:flex;}
+  #weight{
+    padding:0px 5px;
+  }
+  #stats1{
+  display:flex; justify-content:center; align-items:center; height:30px;
+  }
+  #pokemon-name{padding:0px 5px}
+  #img{display:flex;
+  align-items:center;
+  justify-content:center;height:150px;}
+  #types{
+  display:flex;
+  justify-content:center;align-items:center;height:30px;
+  margin-bottom:30px;
+  }
+  #types div{
+    padding:0px 2px;
+  }
