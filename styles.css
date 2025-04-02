@@ -25,7 +25,7 @@ justify-content:center;
   
   
   #table { width: 100vh;
-    display: flex;
+    display: block;
    padding-top:20px; 
     justify-content: center; 
     align-items: center; 
