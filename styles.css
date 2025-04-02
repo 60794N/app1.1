@@ -9,7 +9,7 @@
 justify-content:center;
       align-items:center;
     background-color: #999;
-    height: 100%;
+   
   }
   
   #input {
@@ -23,7 +23,7 @@ justify-content:center;
   
   
   
-  #table {
+  #table { height: 100%;
     display: flex;
    padding-top:20xpx; 
     justify-content: center; 
