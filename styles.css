@@ -22,8 +22,8 @@
   
   #table {
     display: flex;
-   padding-top:0px; 
-    justify-content: center; 
+   padding-top:20xpx; 
+    justify-content: flex-end; 
     align-items: center; 
     height:70px;
   }#stats{
@@ -37,7 +37,7 @@
   #pokemon-name{padding:0px 5px}
   #img{display:flex;
   align-items:center;
-  justify-content:center;height:150px;}
+  justify-content:flex-start;height:150px;}
   #types{
   display:flex;
   justify-content:center;align-items:center;height:30px;
