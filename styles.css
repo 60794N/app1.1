@@ -19,43 +19,61 @@ padding: auto;
 }
 
 #search-input {  
-  width: 70%;
+  width: 55%;
 }
 
 
 
-#table { width: 100vw;
+#table  {width: 100vw;
   display: flex;
-  
- 
   justify-content: center; 
   align-items: center; 
-  padding: auto;
-  height:100vh;
-}#stats{
-  justify-content:center; align-items:center; height:30px;display:flex;}
+}
+ th , td{
+  border: 10px solid #ccc;
+  
+}
+#stats{
+width:auto;  justify-content:center; align-items:center; height:30px;display:flex;}
 #weight{
   padding:0px 5px;
 }
 #stats1{
-display:flex; justify-content:center; align-items:center; height:30px;
+display:flex; justify-content:center; align-items:center; height:auto; width:auto;
 }
-#pokemon-name{padding:0px 5px}
+#pokemon-name{width:auto;height:auto;display:flex; justify-content:center;align-items: center;padding:0px 5px}
 #img{display:flex;
 align-items:center;
 justify-content:center;
 padding: auto;
   width:auto;
-  height: auto;
+
   }
 #types{
 display:flex;
 justify-content:center;
-align-items:center;
+align-items:flex-end;
 height:30px;
-margin-bottom:30px;
+
+
 }
 #types div{
   padding:0px 2px;
 }
+#basic
+
+{ display: flex;
+  height: 35vh;
+  flex-direction: column;
+  padding-bottom: 30px;
+ padding-top: 0px;
+  justify-content: center; 
+  align-items: center; 
+  padding: 0 0 0 0;
+
+}
+#search-button{
+  background-color: #ccc;
+ 
+  font-weight: bolder;
 }
